@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Basic Javacript concepts</title>
+</head>
+<body>
+	<input type="text" id="myInput">
+	Choose 1 , 2 or 3
+	<button onclick="choice()">Enter</button>
+
+<script type="text/javascript">
+
+	
+	
+
+function choice() {	
+	var ch=document.getElementById("myInput").value;
+	var animals=['Dogs','Cats','Elephant'];
+	var humans=[{name:'Divyakshi', age:19}, {name:'Bhawna' ,age:18}];
+
+
+switch(ch)
+	{
+		case 1: if( humans[0].age > humans[1].age )
+		            document.write("if condition working");
+		        else
+		            document.write("not working");
+		        
+		        break;  
+
+
+	}
+
+
+</script>
+
+	
+</body>
+</html>
